@@ -1,3 +1,4 @@
+
 :root {
     --primary-color: #f9b332;
     --secondary-color: #2054a1;
@@ -200,7 +201,7 @@ ul {
      height: 50vh;
      min-height: 500px;
      color: #ffffff;
-     background-image: url("/img/banner.png");
+     background-image: url(".../img/banner.png");
      background-position: 20% 20%;
      background-repeat: no-repeat;
      background-size: cover;
