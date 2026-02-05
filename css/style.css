@@ -490,8 +490,6 @@ hr:after {
 }
 
 .pubs_img {
-    border-style: solid !important;
-    border-width: 1px !important;
     display: block;
     width: 100%;
     margin: 10px 20px 10px 0;
