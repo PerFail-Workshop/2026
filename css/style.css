@@ -358,29 +358,29 @@ ul {
     color: #38A1F3;
 }
 
-.section-ajenda .session {
+.section-agenda .session {
     padding: 15px 0;
     border-left: 1px solid #eeeeee;
     margin-bottom: 40px;
 }
 
-.section-ajenda .session time {
+.section-agenda .session time {
     padding: 5px 25px 15px;
     border-bottom: 1px solid #eeeeee;
     display: inline-block;
 }
 
-.section-ajenda .session h2 {
+.section-agenda .session h2 {
     margin: 20px 0 0 20px;
 }
 
-.section-ajenda .session h3 {
+.section-agenda .session h3 {
     margin: 20px 0 20px 20px;
     font-size: 20px;
     text-transform: uppercase;
 }
 
-.section-ajenda .session h3 span {
+.section-agenda .session h3 span {
     font-size: 14px;
     display: block;
     line-height: 1;
@@ -532,10 +532,11 @@ hr:after {
     padding-top: 0.5em;
     text-align: justify;
     border: none;
+    background-color: var(--odd-bg-color);
 }
 
 .time {
-    background-color: var(--accent-dark-color);
+    background-color: var(--secondary-color);
     color: white;
     font-weight: 600;
     font-size: 1.5em;
@@ -549,8 +550,8 @@ hr:after {
     margin: 20px 0;
     padding: 10px 0 10px 20px;
     font-weight: 600;
-    color: var(--accent-dark-color);
-    box-shadow: 0px -5px 0px var(--accent-dark-color) inset;
+    color: var(--secondary-color);
+    box-shadow: 0px -5px 0px var(--secondary-color) inset;
 }
 
 .agenda-title {
@@ -633,4 +634,40 @@ hr:after {
     .dates-sm {
         display: inline;
     }
+}
+
+/*Button Style*/
+.btn {
+    padding: 10px 30px;
+    margin-bottom: 0;
+    font-size: 16px;
+    border-radius: 0;
+    font-weight: 500;
+    border-width: 2px;
+    text-transform: uppercase;
+}
+
+.btn-lg {
+    font-size: 18px;
+    padding: 15px 30px
+}
+
+.btn-primary {
+    border-color: var(--secondary-color);
+    background: transparent;
+    color: var(--secondary-color);
+}
+
+.btn-primary:hover,
+.btn-primary:focus,
+.btn-primary:active:focus {
+    background: var(--accent-highlight);
+    color: var(--secondary-color);
+    border-color: var(--secondary-color);
+}
+
+button:focus,
+.btn:focus,
+.btn:active:focus {
+    outline: none;
 }

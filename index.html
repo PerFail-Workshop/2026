@@ -69,6 +69,9 @@
                         <a class="nav-link" href="#section-cfp">Call for Papers</a>
                     </li>
                     <li class="nav-item">
+                        <a class="nav-link" href="#section-program">Program</a>
+                    </li>
+                    <li class="nav-item">
                         <a class="nav-link" href="#section-registration">Register</a>
                     </li>
                     <li class="nav-item dropdown d-block d-xl-none">
@@ -326,6 +329,7 @@
         </section>
         <!-- .cfp-event -->
 
+        <!--
         <section id="section-submission" class="section-wrapper about-event">
             <div class="container">
                 <div class="row">
@@ -336,7 +340,6 @@
                     </div>
                 </div>
                 <div class="row">
-                    <!--                    <div class="col-md-8">-->
                     <p class="lead text-block">
                         Regular papers should present novel perspectives within the scope of the workshop: negative
                         results, lessons learned, and other fruitful “failure” stories. Papers must be in PDF format and
@@ -362,6 +365,102 @@
                 </div>
             </div>
         </section>
+        -->
+
+    <section id="section-program" class="section-wrapper about-event">
+        <div class="container">
+            <div class="row">
+                <div class="col-md-12">
+                    <div class="section-title">
+                        <h1>TECHNICAL PROGRAM</h1>
+                    </div>
+                </div>
+            </div>
+
+            <div class="row">
+                <div class="time col-3">14:00 - 14:05</div>
+                <div class="agenda-point col-9">Opening Remarks</div>
+            </div>
+
+            <div class="row">
+                <div class="time col-sm-3">14:05 - 15:00</div>
+                <div class="agenda-point col-sm-9">Keynote: <span class="agenda-title"*>The Art of Being Right at the Wrong Time</span></div>
+
+                <figure class="thumbnail col-sm-4">
+                    <a href="https://ccicconetti.github.io/" target="_blank">
+                        <img src="img/cicconetti.jpeg" width="100%" class="img-responsive" alt="Image">
+                    </a>
+                </figure>
+                <div class="col-sm-8">
+                    <div class="speaker">
+                        Claudio Cicconetti (IIT-CNR, Italy)
+                    </div>
+                    <p class="lead" align="justify">
+                        Claudio Cicconetti (PhD from University of Pisa in 2003) is a Senior Researcher at IIT-CNR, where he leads the |Quantum⟩ Lab.
+                        He has coordinated and contributed to numerous national and international R&D initiatives, receiving awards such as the Facebook Networking research grant (2021) and the Quantum Internet Application Challenge (2023).
+                        From 2009 to 2018, he held R&D roles in the industry.
+                        He participates in the editorial board of Computers Networks, IET Quantum Communication, and Computers and Electrical Engineering.
+                        He has co-authored over 80 publications and two international patents.
+                    </p>
+                </div>
+            </div>
+
+            <div class="row">
+                <div class="time col-sm-3">15:00 - 15:30</div>
+                <div class="agenda-point col-sm-9">Paper Presentations</div>
+
+                <div class="col-sm-4">
+                    <img class="pubs_img" src="papers/explaint.png" style="width: 100%">
+                </div>
+                <div class="paper-title col-sm-8">
+                    <div class="pubs_title">
+                        LLMs Explain't: A Post-Mortem on Semantic Interpretability in Transformer Models
+                    </div>
+                    <span>
+                        <b style="text-decoration: underline">Authors:</b>
+                        Alhassan Abdelhalim (Universität Hamburg, Germany); Janick Edinger (University of Hamburg, Germany); Sören Laue and Michaela Regneri (Universität Hamburg, Germany)
+                    </span>
+                    <div class="abstract">
+                        <a class="btn btn-primary" data-bs-toggle="collapse" href="#collapsePaper4"
+                                                                                role="button" aria-expanded="false" aria-controls="collapseExample">
+                            Read Abstract
+                        </a>
+                        <div class="collapse" id="collapsePaper4">
+                            <div class="abstract card card-body">
+                                Large Language Models (LLMs) are becoming increasingly popular in pervasive computing due to their versatility and strong performance.
+                                However, despite their ubiquitous use, the exact mechanisms underlying their outstanding performance remain unclear.
+                                Different methods for LLM explainability exist, and many are, as a method, not fully understood themselves.
+                                We started with the question of how linguistic abstraction emerges in LLMs, aiming to detect it across different LLM modules (attention heads and input embeddings).
+                                For this, we used methods well-established in the literature: (1) probing for token-level relational structures, and (2) feature-mapping using embeddings as carriers of human-interpretable properties.
+                                Both attempts failed for different methodological reasons: Attention-based explanations collapsed once we tested the core assumption that later-layer representations still correspond to tokens Property-inference methods applied to embeddings also failed because their high predictive scores were driven by methodological artifacts and dataset structure rather than meaningful semantic knowledge.
+                                These failures matter because both techniques are widely treated as evidence for what LLMs supposedly understand, yet our results show such conclusions are unwarranted.
+                                These limitations are particularly relevant in pervasive and distributed computing settings where LLMs are deployed as system components and interpretability methods are relied upon for debugging, compression, and explaining models.
+                            </div>
+                        </div>
+                    </div>
+                </div>
+            </div>
+
+            <div class="row">
+                <div class="time col-sm-3">15:30 - 16:00</div>
+                <div class="agenda-point col-sm-9">Coffee Break</div>
+            </div>
+
+            <div class="row">
+                <div class="time col-sm-3">16:00 - 16:45</div>
+                <div class="agenda-point col-sm-9">Paper Presentations</div>
+            </div>
+
+                <div class="row">
+                    <div class="time col-sm-3">16:45 - 17:30</div>
+                    <div class="agenda-point col-sm-9">Open Discussion</div>
+                </div>
+
+                <div class="row">
+                    <div class="time col-sm-3">17:30 - 17:35</div>
+                    <div class="agenda-point col-sm-9">Closing Words</div>
+                </div>
+    </section>
 
         <section id="section-registration" class="section-wrapper registration">
             <div class="container">
